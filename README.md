@@ -2,7 +2,6 @@
 
 # *SGSST: Scaling Gaussian Splatting Style Transfer*
 <font size="4">
-Simon Niedermayr &emsp; Josef Stumpfegger  &emsp; Rüdiger Westermann
 Bruno Galerne  &emsp; Jianling WANG  &emsp;  Lara Raad  &emsp; Jean-Michel Morel
 </font>
 <br>
