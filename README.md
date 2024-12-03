@@ -64,7 +64,7 @@ conda activate SGSST
 
 ### Download data
 
-These datasets can be download following the instruction of  ARF, 3D gaussian splatting, and Plenoxels :
+These datasets can be download following the instruction of  [ARF](https://www.cs.cornell.edu/projects/arf), [3D gaussian splatting](https://github.com/graphdeco-inria/gaussian-splatting), and [Plenoxels](https://github.com/sxyu/svox2) :
 
 
 The SfM data sets from 3D gaussian splatting for Tanks&Temples and Deep Blending can be downloaded [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip).
@@ -79,12 +79,12 @@ Stylizing a scene is a two step procedure: First train a realistic 3DGS, then st
 - Run 3DGS reconstruction for the scene.
 
 ```shell
-python train.py --source_path <path to COLMAP or NeRF Synthetic dataset> --model_path <path of the 3DGS output model>
+python train.py --source_path <path to COLMAP or NeRF Synthetic dataset> --model_path <path of the 3DGS output model> --resolution 1  
 ```
 
 #### Example:
 ```shell
-python train.py  --source_path ./datasets/truck --model_path  ./output/model_truck --iterations 30000 --checkpoint_iterations 30000
+python train.py  --source_path ./datasets/truck --model_path  ./output/model_truck --iterations 30000 --checkpoint_iterations 30000 --resolution 1  
 ```
 
 - Stylize the scene with a given style image
