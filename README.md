@@ -2,18 +2,21 @@
 
 # *SGSST: Scaling Gaussian Splatting Style Transfer*
 <font size="4">
-Bruno Galerne  &emsp; Jianling WANG  &emsp;  Lara Raad  &emsp; Jean-Michel Morel
+ **Bruno Galerne** (1,2)  &emsp; **Jianling WANG** (2)  &emsp;  **Lara Raad** (3)  &emsp; **Jean-Michel Morel** (4)
 </font>
 <br>
 
 <font size="4">
-University of Orleans, CNRS
+(1) University of Orleans 
+(2) CNRS
+(3) Instituto de Ingeniería Eléctrica, Facultad de Ingeniería, Universidad de la República
+(4) City University of Hong Kong
 </font>
 
-<a href="https://www.idpoisson.fr/">Webpage</a> | <a href="https://arxiv.org/abs/">arXiv</a>
+<a href="https://www.idpoisson.fr/galerne/sgsst_web/index_main_v4.html">Webpage</a> | <a href="https://arxiv.org/abs/">arXiv</a>
 </div>
 
-Our implementation is based in the original 3D Gaussian splatting implementation available [here](https://github.com/graphdeco-inria/gaussian-splatting).
+Our implementation is based on the original 3D Gaussian splatting implementation available [here](https://github.com/graphdeco-inria/gaussian-splatting).
 
 
 Note that we implemented our method based on a former version of this software,
@@ -64,7 +67,7 @@ These datasets can be download following the instruction of  ARF, 3D gaussian sp
 
 The SfM data sets from 3D gaussian splatting for Tanks&Temples and Deep Blending can be downloaded [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip).
 
-The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.info/mipnerf360/). You can put all of these data in the director of datasets.
+The MipNeRF360 scenes are hosted by the paper authors [here](https://jonbarron.info/mipnerf360/). You can put all of these data into the ```datasets``` folder.
 
 
 ## Run SGSST:
