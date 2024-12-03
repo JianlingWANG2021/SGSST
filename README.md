@@ -64,7 +64,7 @@ conda activate SGSST
 
 ### Download data
 
-These datasets can be download following the instruction of  [ARF](https://www.cs.cornell.edu/projects/arf), [3D gaussian splatting](https://github.com/graphdeco-inria/gaussian-splatting), and [Plenoxels](https://github.com/sxyu/svox2) :
+These datasets can be downloaded following the instruction of  [ARF](https://www.cs.cornell.edu/projects/arf), [3D gaussian splatting](https://github.com/graphdeco-inria/gaussian-splatting), and [Plenoxels](https://github.com/sxyu/svox2) :
 
 
 The SfM data sets from 3D gaussian splatting for Tanks&Temples and Deep Blending can be downloaded [here](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/input/tandt_db.zip).
