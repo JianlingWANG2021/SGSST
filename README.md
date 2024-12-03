@@ -4,13 +4,15 @@
 <font size="4">
  **Bruno Galerne** (1,2)  &emsp; **Jianling WANG** (2)  &emsp;  **Lara Raad** (3)  &emsp; **Jean-Michel Morel** (4)
 </font>
-<br>
+<br><br>
 
 <font size="4">
-(1) University of Orleans 
-(2) CNRS
-(3) Instituto de Ingeniería Eléctrica, Facultad de Ingeniería, Universidad de la República
-(4) City University of Hong Kong
+(1) University of Orleans;
+(2) CNRS;
+<br>
+(3) Instituto de Ingeniería Eléctrica, Facultad de Ingeniería, Universidad de la República;
+<br>
+(4) City University of Hong Kong;
 </font>
 
 <a href="https://www.idpoisson.fr/galerne/sgsst_web/index_main_v4.html">Webpage</a> | <a href="https://arxiv.org/abs/">arXiv</a>
