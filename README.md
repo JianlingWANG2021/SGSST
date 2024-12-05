@@ -2,20 +2,20 @@
 
 # *SGSST: Scaling Gaussian Splatting Style Transfer*
 <font size="4">
- **Bruno Galerne** (1,2)  &emsp; **Jianling WANG** (2)  &emsp;  **Lara Raad** (3)  &emsp; **Jean-Michel Morel** (4)
+ **Bruno Galerne** (1,2)  &emsp; **Jianling WANG** (1)  &emsp;  **Lara Raad** (3)  &emsp; **Jean-Michel Morel** (4)
 </font>
 <br><br>
 
 <font size="4">
-(1) University of Orleans;
-(2) CNRS;
+(1) Institut Denis Poisson, Université d'Orléans, Université de Tours, CNRS;
+(2) Institut Universitaire de France (IUF);
 <br>
 (3) Instituto de Ingeniería Eléctrica, Facultad de Ingeniería, Universidad de la República;
 <br>
 (4) City University of Hong Kong;
 </font>
 
-<a href="https://www.idpoisson.fr/galerne/sgsst_web/index_main_v4.html">Webpage</a> | <a href="https://arxiv.org/abs/">arXiv</a>
+<a href="https://www.idpoisson.fr/galerne/sgsst_web/index_main_v4.html">Webpage</a> | <a href="https://arxiv.org/abs/2412.03371">arXiv</a>
 </div>
 
 Our implementation is based on the original 3D Gaussian splatting implementation available [here](https://github.com/graphdeco-inria/gaussian-splatting).
