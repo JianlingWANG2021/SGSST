@@ -8,6 +8,7 @@
 
 <font size="4">
 (1) Institut Denis Poisson, Université d'Orléans, Université de Tours, CNRS;
+<br>
 (2) Institut Universitaire de France (IUF);
 <br>
 (3) Instituto de Ingeniería Eléctrica, Facultad de Ingeniería, Universidad de la República;
