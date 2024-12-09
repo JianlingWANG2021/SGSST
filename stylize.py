@@ -1,6 +1,9 @@
-# The paper can be found : https://arxiv.org/abs/2412.03371
-# The web page of the project : https://www.idpoisson.fr/galerne/sgsst/
-# The code can be found: https://github.com/JianlingWANG2021/SGSST
+# Source code for 
+# SGSST: Scaling Gaussian Splatting Style Transfer
+# Bruno Galerne   Jianling WANG   Lara Raad   Jean-Michel Morel
+# Preprint: https://arxiv.org/abs/2412.03371
+# Project webpage: https://www.idpoisson.fr/galerne/sgsst/
+# Github: https://github.com/JianlingWANG2021/SGSST/
 
 import os
 from os import makedirs
