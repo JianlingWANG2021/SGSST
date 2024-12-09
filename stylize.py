@@ -1,4 +1,3 @@
-# Source code for the submitted CVPR Paper #7157 
 # The paper can be found : https://arxiv.org/abs/2412.03371
 # The web page of the project : https://www.idpoisson.fr/galerne/sgsst/
 # The code can be found: https://github.com/JianlingWANG2021/SGSST
