@@ -2,25 +2,27 @@
 
 # *SGSST: Scaling Gaussian Splatting Style Transfer*
 <font size="4">
- Bruno Galerne (1,2)  &emsp; Jianling WANG (1)  &emsp;  Lara Raad (3)  &emsp; Jean-Michel Morel (4)
+ <a href="https://idpoisson.fr/galerne/">Bruno Galerne</a><sup>1,2</sup>  &emsp; <a href='https://github.com/JianlingWANG2021/SGSST'>Jianling WANG</a><sup>1</sup>  &emsp;  <a href="http://dev.ipol.im/~lraad/">Lara Raad</a><sup>3</sup>  &emsp; <a href="https://sites.google.com/site/jeanmichelmorelcmlaenscachan/">Jean-Michel Morel</a><sup>4</sup>
 </font>
 <br><br>
 
 <font size="4">
-(1) Institut Denis Poisson, Université d'Orléans, Université de Tours, CNRS;
+<sup>1</sup>Université d'Orléans, Université de Tours, CNRS, IDP, UMR 7013, Orléans, France
 <br>
-(2) Institut Universitaire de France (IUF);
+<sup>2</sup>Institut Universitaire de France (IUF)
 <br>
-(3) Instituto de Ingeniería Eléctrica, Facultad de Ingeniería, Universidad de la República;
+<sup>3</sup>Instituto de Ingeniería Eléctrica, Facultad de Ingeniería, Universidad de la República
 <br>
-(4) City University of Hong Kong;
+<sup>4</sup>City University of Hong Kong
+<br>
+<strong>Accepted at CVPR 2025</strong>
 </font>
 
 <a href="https://www.idpoisson.fr/galerne/sgsst">Webpage</a> | <a href="https://arxiv.org/abs/2412.03371">arXiv</a>
+
 </div>
 
 Our implementation is based on the original 3D Gaussian splatting implementation available [here](https://github.com/graphdeco-inria/gaussian-splatting).
-
 
 Note that we implemented our method based on a former version of this software,
 so for consistence we recommend to use the same version.
@@ -34,7 +36,7 @@ unzip d9fad7b3450bf4bd29316315032d57157e23a515.zip
 mv gaussian-splatting-d9fad7b3450bf4bd29316315032d57157e23a515  SGSST
 ```
 
-We have used the style transfer loss from "SPST: Scaling Paiting Style Transfer" which should be cloned within the SGSST folder
+We have used the style transfer loss from [SPST: Scaling Paiting Style Transfer](https://github.com/bgalerne/scaling_painting_style_transfer) which should be cloned within the SGSST folder
 
 ```shell
 cd SGSST
