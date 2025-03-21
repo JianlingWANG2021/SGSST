@@ -82,12 +82,18 @@ Stylizing a scene is a two step procedure: First train a realistic 3DGS, then st
 - Run 3DGS reconstruction for the scene.
 
 ```shell
-python train.py --source_path <path to COLMAP or NeRF Synthetic dataset> --model_path <path of the 3DGS output model> --resolution 1  
+python train.py --source_path <path to COLMAP or NeRF Synthetic dataset>  \
+                --model_path <path of the 3DGS output model> \
+                --resolution 1  
 ```
 
 #### Example:
 ```shell
-python train.py  --source_path ./datasets/truck --model_path  ./output/model_truck --iterations 30000 --checkpoint_iterations 30000 --resolution 1  
+python train.py  --source_path ./datasets/truck \
+                 --model_path  ./output/model_truck \
+                 --iterations 30000 \
+                 --checkpoint_iterations 30000 \
+                 --resolution 1  
 ```
 
 - Stylize the scene with a given style image
