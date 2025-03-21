@@ -348,7 +348,7 @@ if __name__ == "__main__":
     parser.add_argument("--save_iterations", nargs="+", type=int, default=[])
     parser.add_argument("--quiet", action="store_true")
     parser.add_argument("--checkpoint_iterations", nargs="+", type=int, default=[])
-    parser.add_argument("--start_checkpoint", type=str, default = None)
+    parser.add_argument("--start_checkpoint", type=str,  required=True,  help="please provide the starting checkpoint file" )
 
 
     parser.add_argument("--style_img",      type=str,   default="datasets/styles/29.jpg")
@@ -356,7 +356,7 @@ if __name__ == "__main__":
 
     parser.add_argument("--resize_images",   nargs="+", type=float,   default=[-1], help="factors of resizing images for optimisation ")  
     parser.add_argument("--weight_images",   nargs="+", type=float,   default=[1.0], help="weights for the loss of different resizing images")  
-    parser.add_argument("--min_size_threshold", type=int,   default=511, help="minimun pix size of image for automatically scaling")  
+    parser.add_argument("--min_size_threshold", type=int,   default=447, help="minimun pix size of image for automatically scaling")  
 
     parser.add_argument("--optimize_size",      type=float, default=-1,  help="the minumum factor of resizing images for optimising training. <0 means using minimum one of resize_image")  
     parser.add_argument("--optimize_iteration", type=int,   default=10000, help="iteration step for optimising training, setting <=0 for ignore pre-optimisation")  
