@@ -99,17 +99,27 @@ python train.py  --source_path ./datasets/truck \
 - Stylize the scene with a given style image
 
 ```shell
-python stylize.py --source_path <path to COLMAP or NeRF Synthetic dataset> --model_path <path of the stylized 3DGS output model>  --start_checkpoint <path of the 3DGS input model> --style_img  <path of stylized image> --iterations 50000 --resolution 1  
+python stylize.py --source_path <path to COLMAP or NeRF Synthetic dataset>  \
+                  --model_path <path of the stylized 3DGS output model>     \
+                  --start_checkpoint <path of the 3DGS input model>         \
+                  --style_img  <path of stylized image>                     \
+                  --iterations 50000 --resolution 1  
 ```
 #### Example:
 ```shell
-python stylize.py --source_path ./datasets/truck  --model_path output/model_truck_stylized  --start_checkpoint ./output/model_truck/chkpnt30000.pth --style_img  datasets/styles/112.jpg --iterations 50000 --resolution 1  
+python stylize.py --source_path ./datasets/truck  \
+                  --model_path output/model_truck_stylized  \
+                  --start_checkpoint ./output/model_truck/chkpnt30000.pth \
+                  --style_img  datasets/styles/112.jpg \
+                  --iterations 50000 --resolution 1  
 ```
 - Render the stylized scene
 ```shell
-python render.py -m <path to the stylized 3DGS model> --source_path  <path to COLMAP or NeRF Synthetic dataset>
+python render.py -m <path to the stylized 3DGS model> \
+                 --source_path  <path to COLMAP or NeRF Synthetic dataset>
 ```
 #### Example:
 ```shell
-python render.py -m output/model_truck_stylized  --source_path  ./datasets/truck
+python render.py -m output/model_truck_stylized \
+                  --source_path  ./datasets/truck
 ```
