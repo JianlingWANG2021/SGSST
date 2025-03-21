@@ -123,3 +123,16 @@ python render.py -m <path to the stylized 3DGS model> \
 python render.py -m output/model_truck_stylized \
                   --source_path  ./datasets/truck
 ```
+
+
+```
+- generate a movie  from  stylized scene
+```shell
+python make_rendering_videos.py  -m <path to the stylized 3DGS model> 
+```
+#### Example:
+```shell
+python make_rendering_videos.py  -m output/model_truck_stylized --video
+```
+
+
